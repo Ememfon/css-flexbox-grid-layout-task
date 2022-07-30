@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,200;0,400;0,600;1,100;1,400&family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+main {
+  display: block;
+  margin: 0;
+}
+
+/* styling for the header nav */
+.header, ul {
+  background: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align:center;
+}
+.header, li {
+  display: inline-block;
+}
+.header, a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+  text-transform: uppercase;
+}
+.header, a:hover {
+  background-color: gray;
+  transition: 0.4s
+}
+.grid div {
+  padding: 70px;
+}
+.grid {
+  position: relative;
+  top: 30px;
+  display: grid;
+  grid-template-areas: "a a b"
+    "c d d"
+    "c e e";
+  width: 50%;
+  margin: auto;
+  gap: 10px;
+}
+.a {
+  grid-area: a;
+  background-color: magenta;
+}
+.b {
+  grid-area: b;
+  background-color: #b51a00;
+}
+.c {
+  grid-area: c;
+  background-color: #c3d117;
+}
+.d {
+  grid-area: d;
+  background-color: #0061fe;
+}
+.e {
+  grid-area: e;
+  background-color: #0042a9;
+}
+
+@media screen and (max-width:375px) {
+.grid {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+}
+
+.header, ul, li {
+  display:block;}
+
+
+
+}

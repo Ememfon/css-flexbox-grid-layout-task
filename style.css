@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat no:ital,wght@0,200;0,400;0,600;1,100;1,400&family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+main{
+  display: block;
+}
+
+.header ul{
+  background-color: black;
+  list-style: none;
+  text-align: center;
+}
+.header li{
+  display: inline-block;
+}
+.header a{
+  display: block;
+  padding: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+.header a:hover{
+  background-color: gray;
+  transition: 0.4s;
+  color: red;
+}
+ 
+
+
+.main{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 8px;
+}
+.sedans{
+  padding: 2em 2em;
+  background-color: hsl(31, 77%, 52%);
+}
+.sedans img{
+  background-color: hsl(31, 77%, 52%);
+
+}
+.sedans h2{
+  padding-top: 2em;
+  padding-bottom: 1.5rem;
+  color: white;
+  font-weight: 700;
+  font-family: big shoulders display;
+}
+.sedans p{
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  font-family: lexend deca;
+}
+.sedans button{
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  border: 2px solid transparent;
+  border-radius: 4rem;
+  padding: 10px 22px;
+  margin-top: 70px;
+  text-decoration: none;
+transition: .4s;
+  font-weight: bold;
+}
+.sedans button:hover{
+background-color: transparent;
+cursor: pointer;
+  border: 2px solid white;
+  color: white;
+}    
+.suvs{
+  padding: 2em;
+  background-color: hsl(184, 100%, 22%)
+}
+.suvs h2{
+  padding-top: 2em;
+  padding-bottom: 1.5rem;
+  color: white;
+  font-weight: 700;
+  font-family: Big Shoulders Display;
+}
+.suvs p{
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  font-family: lexend deca;
+}
+.suvs button{
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+  border: 2px solid;
+  border-radius: 4rem;
+  padding: 10px 22px;
+  margin-top: 70px;
+  text-decoration: none;
+transition: .4s;
+  font-weight: bold;
+}
+.suvs button:hover{
+background-color: transparent;
+cursor: pointer;
+  border: 2px solid white;
+  color: white;
+}    
+.luxury{
+  padding: 2em;
+  background-color: hsl(179, 100%, 13%);
+}
+.luxury h2{
+  padding-top: 2em;
+  padding-bottom: 1.5rem;
+  color: white;
+  font-weight: 700;
+  font-family: big shoulders display;
+}
+.luxury p{
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  font-family: lexend deca;
+}
+.luxury button{
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+  border: 2px solid;
+  border-radius: 4rem;
+  padding: 10px 22px;
+  margin-top: 70px;
+  text-decoration: none;
+transition: .4s;
+  font-weight: bold;
+}
+.luxury button:hover{
+background-color: transparent;
+cursor: pointer;
+  border: 2px solid white;
+  color: white;
+}
+
+@media screen and (max-width:375px) {
+  .header ul li{display: block;
+  width: 100%;}
+
+  all-main{width: 95%;
+display: block;} 
+
+.main{display: block;
+width: 95%;}
+
+  
+}
